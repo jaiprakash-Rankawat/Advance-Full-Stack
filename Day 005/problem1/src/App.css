@@ -1,0 +1,14 @@
+.external {
+  margin: auto;
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1341e;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
