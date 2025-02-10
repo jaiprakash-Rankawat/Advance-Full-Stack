@@ -1,10 +1,16 @@
 # Day 9: useEffect Hook
 
-- What is useEffect
-- useEffect in Action
-- useEffect Challenges
+- 1️⃣ What is useEffect
+- 2️⃣ useEffect in Action
+- 3️⃣ Important Information
+- 4️⃣ fetching Data
+- 5️⃣ useEffect Challenges
 
-# What is useEffect
+- Bonus Topics :
+- 1. Synchronous vs Asynchronous
+- 2.
+
+# 1️⃣ What is useEffect
 
 `useEffect` is a React Hook that allows you to perform side effects in function components. It is used to handle things like:
 
@@ -72,6 +78,19 @@ useEffect(() => {
 }, [count]);
 ```
 
-# useEffect in Action
+# 2️⃣ useEffect in Action
 
-1.
+- ## Detail Explaination given in `UseEffect1.jsx` and `UseEffect2.jsx`
+
+# 3️⃣ Important Information
+
+- we can not provide useEffect in conditional statement but inside useEffect we can do that
+- ### Detail Explaination given in `UseEffect3.jsx`
+
+# 4️⃣ Fetching Data
+
+- ### Detail Explaination given in `UseEffect4.jsx`
+
+# 5️⃣ useEffect Challenges
+
+- ### solve `Task1.md`
