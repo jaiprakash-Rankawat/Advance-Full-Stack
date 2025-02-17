@@ -22,22 +22,41 @@
 
 // Code for useContext
 
-import React from "react";
-import { createContext } from "react";
-import Component1 from "./Use_Context/Component1";
+// import React from "react";
+// import { createContext } from "react";
+// import Component1 from "./Use_Context/Component1";
+// import UserContex from "./Task1/UserContex";
 
-export const data1 = createContext();
-export const data2 = createContext();
+// export const data1 = createContext();
+// export const data2 = createContext();
+// const App = () => {
+//   const name = "Radha Rani";
+//   const age = 23;
+//   return (
+//     <div>
+//       <data1.Provider value={name}>
+//         <data2.Provider value={age}>
+//           <Component1 />
+//         </data2.Provider>
+//       </data1.Provider>
+//       <UserContex />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import React from "react";
+import UserProvider from "./Task1/UserContext";
+import UserProfile from "./Task1/UserProfile";
+import UpdateUser from "./Task1/UpdateUser";
 const App = () => {
-  const name = "Radha Rani";
-  const age = 23;
   return (
     <div>
-      <data1.Provider value={name}>
-        <data2.Provider value={age}>
-          <Component1 />
-        </data2.Provider>
-      </data1.Provider>
+      <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider>
     </div>
   );
 };
