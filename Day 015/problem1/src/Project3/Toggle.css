@@ -1,0 +1,31 @@
+button {
+  background-color: lightblue;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.change-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
