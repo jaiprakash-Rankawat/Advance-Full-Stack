@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Allow only specific files
+!Roadmap.md
+!Day 016.ts
+
+# Ignore node_modules explicitly (even though * ignores it)
+node_modules/
