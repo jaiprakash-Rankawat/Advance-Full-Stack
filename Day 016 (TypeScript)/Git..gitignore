@@ -5,5 +5,5 @@
 !Roadmap.md
 !Day 016.ts
 
-# Ignore node_modules explicitly (even though * ignores it)
-node_modules/
+# Ignore .gitignore itself
+.gitignore
